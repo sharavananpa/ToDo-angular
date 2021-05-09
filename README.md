@@ -1,5 +1,7 @@
 # ToDoList
 
+Followed Brad Traversy's tutorial - https://www.youtube.com/watch?v=3dHNOWTI7H8&t=2681s
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
 ## Development server
