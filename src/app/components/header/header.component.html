@@ -1,0 +1,9 @@
+<header>
+  <h1>{{ title }}</h1>
+  <app-btn
+    *ngIf="hasRoute('/')"
+    name="{{ btnOnOff ? 'Close' : 'Add' }}"
+    color="{{ btnOnOff ? 'red' : 'green' }}"
+    (btnClick)="toggleBtn()"
+  ></app-btn>
+</header>
